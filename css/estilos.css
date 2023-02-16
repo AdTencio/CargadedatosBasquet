@@ -1,0 +1,411 @@
+body {background: url(img/fondo1.jpg);
+    background-size: 100%;
+    position: relative;
+    width: 100%;
+    height: 700px;
+display: inline-block;
+}
+#containerhijo { background: url(img/fondoprueba.png);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-color: #00133e;
+    background-position: 0px -300px; /* para el responsive, tengo que modificar este valor, cuando se va achicado la pantalla tienen que ir subiendo los px*/
+   height: 700px;
+    width: 100%;
+    display: inline-block;
+}
+
+#bannertop {position: relative;
+            height: 50px;
+        display: flex; }
+
+#todoslostiposdejugadas {display: flex;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                            height: 100%;
+                            justify-content: flex-start;
+                            align-content: top;
+                }
+
+.contenedordebotones {
+                        display: flex;
+                        flex-direction: row; /*Tengo que revisar el justify content y aing content porque los copie del de arriba*/
+                        justify-content: center;
+                        align-content: center;
+
+                        margin: 0px;
+                        padding: 0px;
+                        width: 380px;
+                        height: 35px;
+                        margin-top: 4px;
+                        margin-bottom: 4px;
+                        
+                        
+}
+
+
+#jugadas {display: inline-block;
+    width: 400px;
+    height: 575px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 0px;
+    padding: 0px;
+            }
+#tiposdejugadas {display: inline-block;
+    height: 575px;
+    width: 400px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+#tiposdejugadas2 {display: inline-block;
+    height: 575px;
+    width: 400px;
+    text-align: center;
+    margin: 10px;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+
+
+h3 {text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: #ffffff;
+  font-weight:900;
+  font-size: 25px;
+  font-family: montserrat;
+  text-transform: uppercase;
+  -webkit-text-stroke: 2px black;
+  border: 2px solid black;
+}
+
+
+button {display: inline-block;
+    cursor: pointer;
+    margin: 0px;
+    color: white;
+    border: 2px solid black;
+    ;
+    
+}
+span {
+    align-items: center;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    width: 30px;
+    background: black;
+    color: red;
+    border-color: blue;
+    border: solid 2px;
+    border-radius: 20px;
+}
+p {display: inline-block; /*los span que suman los totales tengo que ponerlos dentro de un div junto al boton, pq al no tener caja contenedora se colocaron en cualquier lado */
+    border-color: blue;
+    background: black;
+    height: 30px;
+    width: 30px;
+    color: red;
+    vertical-align: center;
+    position: relative;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+input {display: inline-block;
+    
+}
+
+#ocultar {display: inline-block;
+    
+    
+}
+
+
+.btnocultar { 
+            
+    display: inline-block;
+            background-color: black;
+            color: white;
+            border-radius: 50%;
+            font-size: 20px;
+            width: 30px;
+            height: 30px;
+            border-color: white;
+           
+        }
+
+.btnocultar:active {background-color: white;
+    box-shadow: 0 3px #000;
+    transform: translateY(4px);
+    color:black;
+
+}
+
+.contenedorocultar { 
+    margin: 0px;
+ padding: 0px;
+ width: 340px;
+ display: inline-block;
+ justify-content: center;
+align-content: center;
+}
+
+
+
+
+.sumarverde:active {
+
+    background-color: #3e8e41;
+    box-shadow: 0 3px #000;
+    transform: translateY(4px);
+    color: #0f5f11;
+    display: inline-block;
+}
+
+.sumarverde {background-color: rgb(28, 184, 65);
+    border-radius: 50%;
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    color: black;
+    
+   }
+.restarrojo {background-color:rgb(236, 84, 84);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 4px;
+    position: relative;
+    color: black;
+}
+
+.pprueba {
+            font-size: 18px;
+            margin-left: 4px;
+            margin-right: 4px;
+}
+
+.signosumar {
+    font-size: 18px;
+    margin-top: 1px;
+}
+
+
+.restarrojo:active {
+    background-color: red;
+    box-shadow: 0 3px #000;
+    transform: translateY(4px);
+    color: rgba(259, 96, 96, 0.904)
+}
+
+
+.valores {text-align: center;}
+
+
+
+.placeholder1 {
+    display: inline-block;
+    height: 24px;
+    
+    color: red;
+    background: white;
+    border-color: blue;
+    
+}
+
+
+.btnocultar .contenedorocultar {
+    display: inline-block;
+}             
+
+p {
+    position: relative;
+    vertical-align: middle;
+    
+}
+
+.contenedorocultar {display: flex;
+    position: relative;
+margin-left: 15px;}
+
+.contienetitulo {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+}
+
+#contenedordetipodejugada {
+            height: 570px;
+}
+
+.novisible {background-color:rgb(236, 84, 84);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 4px;
+    position: relative;
+    visibility: hidden;
+}
+    
+
+.novisible2 {background-color:rgb(236, 84, 84);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 4px;
+    margin-left: 4px;
+    position: relative;
+    visibility: hidden;
+}
+
+.botonesborrar {
+    background-color: red;
+    color: white;
+    border-color: rgb(87, 0, 0);
+    border-radius: 4px;
+    width: 100px;
+    height: 25px;
+}
+
+.botonesborrar:active {
+    box-shadow: 0 3px #000;
+    transform: translateY(4px);
+    color: rgba(259, 96, 96, 0.904)
+
+}
+
+.botonyres {
+    display: flex;
+    padding: 0px;
+    margin-bottom: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px;
+}
+
+.restotal {
+    background: white;
+    color: red;
+    border-color: blue;
+    border: solid 2px;
+    font-weight:unset;
+    font-size: 20px;
+    margin-left: 6px;
+    margin-top: 3px;
+    border-radius: 4px;
+}
+
+#ocultar11 {
+    background-color: red;
+    cursor:no-drop;
+}
+#ocultar25 {
+    background-color: red;
+    cursor:no-drop;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#imagen1 {width: 75px; height: 50px;}
+
+#bannertop {display: flex;
+justify-content:space-between;}
+
+.date {height: 20px;
+margin-right: 10px;}
+
+.cafesito {width: 100%;
+            position: relative;
+            left: 500px;}
+footer { display: inline-block;
+    color: white;
+
+    width: 100%;
+    height: 30px;
+    font-size:large;
+}
+
+@media (max-width: 1300px) {
+    
+    #containerhijo { background-size: 150%; background-position: 0px -350px;}
+    #jugadas, #tiposdejugadas, #tiposdejugadas2 { width: 350px;}
+}
+@media (max-width: 1254px) {
+    body {height: 800px;} #container {height: 800px;}
+     #containerhijo { background-size: 130%; background-position: 0px -400px; background-size: 180%;}
+     #jugadas{ width: 350px; height: 700px;}
+      #tiposdejugadas{ width: 350px; height: 700px;}
+       #tiposdejugadas2 { width: 350px; height: 700px;}
+ }
+
+
+@media (max-width: 1129px) {
+    body {height: 700px;
+        }
+    #containerhijo { background-size: 120%; background-position: 0px 0px; height: 800px;}
+    #jugadas, #tiposdejugadas, #tiposdejugadas2 { width: 300px; height: 800px;}
+    .contenedorocultar { width: 250px;}
+    .contenedordebotones {width: 300px}
+    .botonyres {width: 300px}
+    span {padding-left: 8px; padding-right: 8px; border-radius: inherit;}
+    
+}
+
+@media (max-width: 1050px) {
+    body {height: 700px;
+        }
+    #containerhijo { background-size: 150%; background-position: 0px 0px; height: 800px;}
+    #jugadas, #tiposdejugadas, #tiposdejugadas2 { width: 300px; height: 800px;}
+    .contenedorocultar { width: 250px;}
+    .contenedordebotones {width: 300px}
+    .botonyres {width: 300px}
+    
+    
+}
+
+@media (max-width: 977px) {
+    body {
+        background-size: 200%;
+        
+        position: relative;
+        width: 100%;
+        height: 700px;
+    display: inline-block;
+    }
+    #containerhijo {background: none;
+    height: 2400px;}
+    #todoslostiposdejugadas {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        height: 2450px;
+        justify-content: center;
+        align-content: center;
+        align-self:center;
+                            } 
+   .jugadas {height: 400px;}
+
+   .tiposdejugadas2 {order: -1;}
+   .date {display: none;}
+   #bannertop {justify-content: space-around;}
+
+}
+
+@media (max-width: 320px) {
+     .imagen1 {display: none;}
+     span {padding-left: 8px; padding-right: 8px; border-radius: inherit;}
+     
+    }
+
